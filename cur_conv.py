@@ -67,7 +67,6 @@ def my_currency(message):
       bot.register_next_step_handler(message, my_currency)
    
 
-
 @bot.message_handler(content_types=['text'])
 def get_wether(message):
    pass
